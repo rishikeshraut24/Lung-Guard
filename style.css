@@ -1,0 +1,649 @@
+.container-caje {
+    height: 100vh;
+    width: 100%;
+    background-color: #49EECD;
+}
+
+
+.break {
+    margin-top: 15px;
+    height: 120px;
+    width: 120px;
+   
+   
+}
+
+
+
+
+.top_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info {
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+.ourm {
+    cursor: pointer;
+}
+
+.info h1 {
+    font-size: 38px;
+}
+
+#motivates {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.second_half {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    margin-right: 30px;
+    margin-top: 10px;
+    height: 500px;
+}
+
+#moti {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.gcont {
+    display: flex;
+}
+
+.gpay {
+    height: 40px;
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.rk {
+    background-image: url('assect/aapstore.jpg');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+
+.ap {
+    background-image: url('assect/apple1.png');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+
+.content {
+    text-align: center;
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+}
+
+#head {
+    text-align: center;
+}
+
+.cards-container {
+    border: 2px solid black;
+    background-color: #ffffff;
+    width: 240px;
+    height: 400px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-container {
+    text-align: center;
+    padding: 2px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.fles {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.solid-bg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #B2D6D0;
+    transform: solid-bg(-20deg);
+    z-index: -1;
+    top: -50%;
+}
+
+.bg-img {
+    height: 100vh; /* Full height of the viewport */
+    background: url('assect/aboy.jpg');
+    background-size: cover; /* Ensure the background image covers the full area */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed;
+}
+
+.ver {
+    background-color: transparent;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+.feed {
+    padding: 20px;
+}
+
+.maintext {
+    height: 120px;
+    background-color: #0f9a7e;
+    text-align: center;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.line {
+    margin: 10px auto 0;
+    background-color: #ffc01d;
+    width: 276px;
+    height: 5px;
+}
+
+.box-contain {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.box-1 {
+    width: 356.5px;
+    background-color: rgb(214, 221, 234);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.heading {
+    font-size: 25px;
+}
+
+.para {
+    font-size: 20px;
+}
+
+.text-overlay {
+    margin-top: 100px;
+    margin-left: 300px;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.line {
+    margin: auto;
+    display: flex;
+    background-color: #ffc01d;
+    width: 276px;
+    height: 5px;
+}
+
+.divsize {
+    height: 500px;
+}
+
+.divsize h3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 38px;
+}
+
+.divh3 span {
+    color: #ffc01d;
+}
+
+.calculateprice {
+    display: flex;
+    margin-top: 0;
+    background-color: #0f9a7e;
+    height: 550px;
+}
+
+.smokeboy {
+    height: 550px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.calhead {
+    text-align: center;
+}
+
+.calbtn {
+    position: absolute;
+    margin-left: 100px;
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.form {
+    margin-left: 200px;
+}
+
+.caldiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.eksathbox .second {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sdk {
+    border-radius: 15px;
+}
+
+.btnc {
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    margin-left: 290px;
+    margin-top: 30px;
+}
+
+.daysquite {
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.daysbtn {
+    position: absolute;
+    height: 30px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 150px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.streak {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.streak span {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.complete-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.complete-button:hover {
+    background-color: #218838;
+}
+.parallax {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#headerx {
+    margin: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border: 3px solid black;
+    background-color: #B2D6D0;
+}
+
+.secas .pk {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #fff;
+    margin: 0;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #003329;
+    margin-left: 30px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #003329;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.home {
+    color: white;
+    background-color: #003329;
+}
+
+.parralmid {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parralmid img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+#text {
+    position: absolute;
+    font-size: 5rem;
+    color: #333;
+    margin: 0;
+}
+
+.secas {
+    background-color: #003329;
+    position: relative;
+    margin-top: 0; /* Adjust as needed to move text below mountain */
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.liner {
+    display: flex;
+    background-color: #ffc01d;
+    width: 255px;
+    height: 5px;
+}
+
+.secas ul li {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.secas h2 {
+    margin-top: 0;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.secas p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    margin: 0;
+}
+
+.Aboutus h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.Aboutus p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+
+#plast {
+    margin: 0;
+}
+
+.Aboutus h2 {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #ffc01d;
+}
+
+/* Day 1 to 10 */
+body {
+    margin-top: 0;
+}
+
+.headerz {
+    background-color: #0f9a7e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 0;
+    border: 1px solid black;
+}
+
+.headerz nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.headerz nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.headerz nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: #0f9a7e;
+}
+
+.secas .lastinfo {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.linerx {
+    display: flex;
+    background-color: #ffc01d;
+    width: 160px;
+    height: 5px;
+}
+.linerx1 {
+    display: flex;
+    background-color: #ffc01d;
+    width: 290px;
+    height: 5px;
+}
+.linerab {
+    display: flex;
+    background-color: #ffc01d;
+    width: 210px;
+    height: 5px;
+}
+
+.content-section {
+    margin: auto;
+    background-color: #B2D6D0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    width: 900px;
+    justify-content: center;
+}
+
+.content-section h2 {
+    color: black;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#scrollToTopBtn {
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    margin-top: 0;
+    margin-left: 50px;
+}
+
+.resultDiv {
+    background-color: black;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .content-section {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .top_nav {
+        flex-direction: column;
+    }
+    .second_half {
+        flex-direction: column;
+        height: auto;
+    }
+    .info {
+        margin-top: 50px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .main{
+        flex-direction: column-reverse;
+       width: auto;
+        height: auto;
+    }
+    .gcont {
+        justify-content: center;
+    }
+    .daysbtn {
+        width: 80px;
+    }
+    .parralmid img {
+        width: 150%;
+    }
+}
+
+@media (max-width: 576px) {
+    .info h1 {
+        font-size: 24px;
+    }
+    #motivates {
+        font-size: 18px;
+    }
+    #moti {
+        font-size: 24px;
+    }
+    .gpay {
+        width: 120px;
+    }
+    .parralmid img {
+        width: 200%;
+    }
+    .content-section {
+        width: 100%;
+    }
+    .calculateprice {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    
+    
+    .form {
+        margin-left: 0;
+        text-align: center;
+    }
+    .btnc {
+        margin-left: 0;
+        width: 100%;
+    }
+}
